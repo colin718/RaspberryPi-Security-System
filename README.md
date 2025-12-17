@@ -1,5 +1,3 @@
-# RaspberryPi-Security-System
-
 # IoT 기반 실시간 침입 감지 및 자동 대응 시스템
 **(Smart Intrusion Detection System with Raspberry Pi)**
 
