@@ -27,8 +27,6 @@
 
 <img width="452" height="255" alt="image" src="https://github.com/user-attachments/assets/f7c7a6e4-9482-4e07-b2e4-6b17e72913d4" />
 
-<img width="758" height="480" alt="스크린샷 2025-11-29 21 24 14" src="https://github.com/user-attachments/assets/d84e6a89-f1e1-4fc1-97fe-ca1dc8af9e7f" />
-
 ### 시연 및 발표 영상 (Demo Video)
 **클릭하여 산타 감지 시스템의 실제 작동 모습과 AI 더빙 발표를 확인하세요!**
-[산타 침입 감지 시스템 시연 영상 보러가기 (YouTube)]((https://youtu.be/cHduI14MGzc)
+(https://youtu.be/cHduI14MGzc)
