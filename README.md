@@ -29,4 +29,7 @@
 
 <img width="758" height="480" alt="스크린샷 2025-11-29 21 24 14" src="https://github.com/user-attachments/assets/d84e6a89-f1e1-4fc1-97fe-ca1dc8af9e7f" />
 
-자세한 시현 동영상은 파일 첨부하겠습니다.
+### 시연 및 발표 영상 (Demo Video)
+**클릭하여 산타 감지 시스템의 실제 작동 모습과 AI 더빙 발표를 확인하세요!**
+
+[![Video Label](http://img.youtube.com/vi/유튜브영상ID/0.jpg)](https://youtu.be/cHduI14MGzc)
