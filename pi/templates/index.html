@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>산타 감지 상황판</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js"></script>
+    <script src="./static/mqttio.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script>
+        window.addEventListener("load", connect);
+    </script>
+</head>
+<body class="container py-4 text-center">
+    <h1 class="mb-4">🎄 산타 침입 감지 시스템 🎄</h1>
+    
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <!-- LED 제어 -->
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-success text-white">트리 조명 제어</div>
+                <div class="card-body">
+                    <button class="btn btn-outline-success" onclick="publish('santa/control', 255)">켜기 (ON)</button>
+                    <button class="btn btn-outline-danger" onclick="publish('santa/control', 0)">끄기 (OFF)</button>
+                </div>
+            </div>
+
+            <!-- 패턴 제어 -->
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-primary text-white">✨ LED 패턴 ✨</div>
+                <div class="card-body">
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-info text-white" onclick="publish('santa/control', 'pattern1')">➡️ 순차 점등</button>
+                        <button class="btn btn-warning text-white" onclick="publish('santa/control', 'pattern2')">🎵 징글벨 리듬</button>
+                        <button class="btn btn-secondary" onclick="publish('santa/control', 'pattern3')">✨ 랜덤 반짝임</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CCTV 사진 -->
+            <div class="card shadow-sm">
+                <div class="card-header bg-danger text-white">📸 CCTV 포착 화면</div>
+                <div class="card-body">
+                    <img id="santa-photo" src="" alt="대기 중..." class="img-fluid rounded" style="display:none; border: 3px solid red; max-height: 400px;">
+                    <p id="photo-msg" class="text-muted mt-2">감지된 사진이 없습니다.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
