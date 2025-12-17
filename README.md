@@ -31,5 +31,4 @@
 
 ### 시연 및 발표 영상 (Demo Video)
 **클릭하여 산타 감지 시스템의 실제 작동 모습과 AI 더빙 발표를 확인하세요!**
-
-[![Video Label](http://img.youtube.com/vi/유튜브영상ID/0.jpg)](https://youtu.be/cHduI14MGzc)
+[산타 침입 감지 시스템 시연 영상 보러가기 (YouTube)]((https://youtu.be/cHduI14MGzc)
